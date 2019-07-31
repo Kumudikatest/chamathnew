@@ -42,7 +42,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "chamathnew/new.js",
-        "code": "exports.handler = function (event, context, callback) {\n    debugger;\n    callback(null, { \"message\": \"Successfully executed\" }\n\n    );\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    // debugger;\n    callback(null, { \"message\": \"Successfully executed\" }\n\n    );\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -68,7 +68,7 @@
       "b74e34ea-2278-4dc0-b15d-b775d5ebbec1",
       "a8fb890d-6230-4219-abeb-a24e8806f4cf"
     ],
-    "currentFileId": "b74e34ea-2278-4dc0-b15d-b775d5ebbec1",
+    "currentFileId": "a8fb890d-6230-4219-abeb-a24e8806f4cf",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -95,7 +95,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564571308304
+    "lastSave": 1564571527180
   },
   "VCS_STATE": {
     "provider": "GitHub",
@@ -105,7 +105,7 @@
       "branches": [
         {
           "name": "master",
-          "hash": "1a38a056c9563cc80994a82b214a34f05b6bdfe6"
+          "hash": "691f990ad3d1f05841985feb3b355c9e55d74e50"
         }
       ]
     }

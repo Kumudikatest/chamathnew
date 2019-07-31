@@ -1,5 +1,5 @@
 exports.handler = function (event, context, callback) {
-    debugger;
+    // debugger;
     callback(null, { "message": "Successfully executed" }
 
     );
