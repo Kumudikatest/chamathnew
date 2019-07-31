@@ -42,7 +42,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "chamathnew/new.js",
-        "code": "exports.handler = function (event, context, callback) {\n    // debugger;\n    callback(null, { \"message\": \"Successfully executed\" }\n\n    );\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed\" }\n\n    );\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -95,7 +95,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564571527180
+    "lastSave": 1564575688020
   },
   "VCS_STATE": {
     "provider": "GitHub",
@@ -105,7 +105,7 @@
       "branches": [
         {
           "name": "master",
-          "hash": "691f990ad3d1f05841985feb3b355c9e55d74e50"
+          "hash": "a7a4bdee5116946a6322eb008f21ddb35cf477ff"
         }
       ]
     }
