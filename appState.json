@@ -23,7 +23,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "chamathnew/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -42,7 +42,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "chamathnew/new.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n    debugger;\n    callback(null, { \"message\": \"Successfully executed\" }\n\n    );\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -50,7 +50,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "62057dfa-59ae-4826-85f8-32ea1bb1888d": {
+            "id": "62057dfa-59ae-4826-85f8-32ea1bb1888d",
+            "name": "Test event",
+            "functionId": "a8fb890d-6230-4219-abeb-a24e8806f4cf",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "deletedFiles": [],
@@ -59,7 +68,7 @@
       "b74e34ea-2278-4dc0-b15d-b775d5ebbec1",
       "a8fb890d-6230-4219-abeb-a24e8806f4cf"
     ],
-    "currentFileId": "a8fb890d-6230-4219-abeb-a24e8806f4cf",
+    "currentFileId": "b74e34ea-2278-4dc0-b15d-b775d5ebbec1",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -86,14 +95,19 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564567128937
+    "lastSave": 1564571308304
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "chamathnew",
       "url": "https://github.com/Kumudikatest/chamathnew",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "1a38a056c9563cc80994a82b214a34f05b6bdfe6"
+        }
+      ]
     }
   }
 }
